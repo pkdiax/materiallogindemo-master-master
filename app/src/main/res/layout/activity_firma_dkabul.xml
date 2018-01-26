@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sourcey.materiallogindemo.FirmaDKabulActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Taşıma Bilgileri"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/arac_plakasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="18dp"
+        android:hint="Araç Plakası" />
+
+    <EditText
+        android:id="@+id/sofor_ismi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/arac_plakasi"
+        android:layout_marginTop="38dp"
+        android:hint="Şoför İsmi" />
+
+    <Button
+        android:id="@+id/myDatePickerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sofor_ismi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Choose Date" />
+
+    <TextView android:id="@+id/showMyDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spinner_KullanıcıTipi" type="id">sp_KullanıcıTipi</item>
+    <item name="spinner_kullaniciTipi" type="id">kullanici_Tipi</item>
+</resources>

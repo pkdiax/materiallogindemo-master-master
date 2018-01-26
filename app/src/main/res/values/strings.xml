@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Material Login Example</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="kullanici_tipleri">
+        <item>Hizmet Merkezi</item>
+        <item>Tofaş</item>
+    </string-array>
+</resources>

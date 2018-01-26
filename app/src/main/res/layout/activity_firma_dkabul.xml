@@ -36,18 +36,14 @@
         android:layout_marginTop="38dp"
         android:hint="Şoför İsmi" />
 
-    <Button
-        android:id="@+id/myDatePickerButton"
+    <TextView
+        android:id="@+id/tarih"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/sofor_ismi"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
-        android:text="Choose Date" />
-
-    <TextView android:id="@+id/showMyDate"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:hint="Tarih Seçiniz" />
 
 
 </RelativeLayout>
